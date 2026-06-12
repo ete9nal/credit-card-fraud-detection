@@ -1,0 +1,25 @@
+[project]
+name = "credit-card-fraud-detection"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ete9nal",email = "ete9nal@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.11"
+dependencies = [
+    "jupyter (>=1.1.1,<2.0.0)",
+    "notebook (>=7.5.7,<8.0.0)",
+    "pandas (>=3.0.3,<4.0.0)",
+    "numpy (>=2.4.6,<3.0.0)",
+    "scikit-learn (>=1.9.0,<2.0.0)",
+    "matplotlib (>=3.10.9,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "xgboost (>=3.2.0,<4.0.0)",
+    "imbalanced-learn (>=0.14.2,<0.15.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
